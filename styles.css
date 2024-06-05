@@ -20,13 +20,21 @@
     color: #000000;
     padding: 5px;
     text-decoration: none;
+ 
 }
 
 .dropdown-content a:hover {
     color: #FFFFFF;
     background-color: #00A4BD;
+    
 }
 
 .menu {
     display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu-title{
+    padding-left: 20px;
+    padding-right: 20px;
 }
