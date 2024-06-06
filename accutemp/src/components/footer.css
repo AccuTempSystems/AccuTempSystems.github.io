@@ -1,0 +1,36 @@
+.icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.phone{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+a{
+    color: white
+}
+/* a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  } */
