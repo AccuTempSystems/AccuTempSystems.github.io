@@ -1,10 +1,12 @@
 import {NavLink} from "react-router-dom";
 import "./navbar.css"
+import image from "../AccuTemp2 monochrome.jpg"
 
 function NavBar(){
     return(
         <body>
         <header class="menu">
+            <img src={image} className= "logo"></img>
             <div class = "menu">
                 <div class="menu">Home</div>
                 <div class = "dropdown">
@@ -23,9 +25,18 @@ function NavBar(){
                         <a rel="noopener" target="_blank" href="">Monitoring & Support</a>
                     </div>
                 </div>
-             
-                <div class="menu">Our Company</div>
-                <div class="menu">Contact Us</div>
+                <div class = "dropdown">
+                    <div class="menu-title">Our Company</div>
+                    <div class="dropdown-content">
+                        <a rel="noopener" target="_blank" href="">Our History</a>
+                    </div>
+                </div>
+                <div class = "dropdown">
+                    <div class="menu-title">Contact Us</div>
+                    <div class="dropdown-content">
+                        <a rel="noopener" target="_blank" href="">Privacy Policy</a>
+                    </div>
+                </div>
             </div>
         </header>
     </body>
