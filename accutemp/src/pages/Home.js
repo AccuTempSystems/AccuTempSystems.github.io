@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "./Home.css"
 
 function Home(){
     return(
@@ -7,7 +8,7 @@ function Home(){
             <p>At Accu-Temp, we revolutionize the way you experience your built environment. Our cutting-edge building automation systems empower you to control and optimize every aspect of your space, from energy efficiency to comfort, security, and beyond</p>
             <div className="flex-container">
                 <div>
-                    <img></img>
+                    <div className= "inner-container">
                     <NavLink to="/BuildingAutomation" class="clickable"> 
                         <p>Building Automation</p>
                     </NavLink>
@@ -17,6 +18,9 @@ function Home(){
                     <NavLink to="/ResourceManagement" class="clickable">
                         <p>Resource Management</p>
                     </NavLink>
+                    </div>
+                    <img></img>
+                 
                     <NavLink to="/EngineeringAndInstallation" class="clickable">
                         <p>Engineering & Installation</p>
                     </NavLink>
