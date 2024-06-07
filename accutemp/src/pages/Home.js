@@ -5,6 +5,15 @@ function Home(){
         <div>
             <h1>Welcome to Accu-Temp Cooling & Heating Systems Inc.</h1> 
             <p>At Accu-Temp, we revolutionize the way you experience your built environment. Our cutting-edge building automation systems empower you to control and optimize every aspect of your space, from energy efficiency to comfort, security, and beyond</p>
+            <div className="flex-container">
+                <div>
+                    <img></img>
+                    <a>Building Automation</a>
+                    <NavLink to="/BuildingAutomation" class="clickable"> 
+                        <p>Building Automation</p>
+                    </NavLink>
+                </div>
+            </div>
         </div>
      
     )
