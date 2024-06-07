@@ -4,7 +4,7 @@ import NavBar from "./components/navbar"
 import Home from "./pages/Home.js"
 import Footer from "./components/footer.js"
 import {Routes, Route, BrowserRouter, Router} from "react-router-dom";
-import BuildingAutomation from "./pages/BuildingAutomation"
+import BuildingAutomation from "./pages/BuildingAutomation.js"
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Footer/>
         <BrowserRouter>
           <Routes>
-            <Route path="" element={<BuildingAutomation/>}/>
+            <Route path="buildingautomation" element={<BuildingAutomation/>}/>
           </Routes>
         </BrowserRouter>
       
