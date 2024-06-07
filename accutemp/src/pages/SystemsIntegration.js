@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-function BuildingAutomation(){
+function SystemsIntegration(){
     return(
         <div>
-       
+            <h1>wee woo wa wa </h1>
         </div>
      
     )
 }
 
-export default BuildingAutomation;
+export default SystemsIntegration;

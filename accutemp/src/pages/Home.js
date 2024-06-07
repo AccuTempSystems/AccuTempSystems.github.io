@@ -8,9 +8,11 @@ function Home(){
             <div className="flex-container">
                 <div>
                     <img></img>
-                    <a>Building Automation</a>
                     <NavLink to="/BuildingAutomation" class="clickable"> 
                         <p>Building Automation</p>
+                    </NavLink>
+                    <NavLink to="/SystemsIntegration" class="clickable"> 
+                        <p>Systems Integration</p>
                     </NavLink>
                 </div>
             </div>
