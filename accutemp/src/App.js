@@ -15,7 +15,7 @@ function App() {
 					<NavBar/>
           <Home/>
 					<Routes>
-            {/* <Route path="" element={<Home />} /> */}
+            <Route path="" element={<Home />} />
 						<Route path="buildingautomation" element={<BuildingAutomation />}/>
             <Route path="systemsintegration" element={<SystemsIntegration/>}/>
 					</Routes>
