@@ -14,6 +14,18 @@ function Home(){
                     <NavLink to="/SystemsIntegration" class="clickable"> 
                         <p>Systems Integration</p>
                     </NavLink>
+                    <NavLink to="/ResourceManagement" class="clickable">
+                        <p>Resource Management</p>
+                    </NavLink>
+                    <NavLink to="/EngineeringAndInstallation" class="clickable">
+                        <p>Engineering & Installation</p>
+                    </NavLink>
+                    <NavLink to="/AdvancedAnalytics" class="clickable">
+                        <p>Advanced Analytics</p>
+                    </NavLink>
+                    <NavLink to="/MonitoringAndSupport" class="clickable">
+                        <p>MonitoringAndSupport</p>
+                    </NavLink>
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-function BuildingAutomation(){
+function AdvancedAnalytics(){
     return(
         <div>
-            <p>Hello World</p>
+            <p>Hello World4</p>
         </div>
      
     )
 }
 
-export default BuildingAutomation;
+export default AdvancedAnalytics;

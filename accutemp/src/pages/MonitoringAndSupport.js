@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-function BuildingAutomation(){
+function MonitoringAndSupport(){
     return(
         <div>
-            <p>Hello World</p>
+            <p>Hello World6</p>
         </div>
      
     )
 }
 
-export default BuildingAutomation;
+export default MonitoringAndSupport;
