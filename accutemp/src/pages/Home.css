@@ -1,7 +1,25 @@
 .inner-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
     color: white;
+}
+
+.card {
+    /* border: 1px;
+    border-color: black; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cardImage{
+    border-radius: 20px;
+}
+
+h3{
+    color: white;
+    margin-top: 0;
 }

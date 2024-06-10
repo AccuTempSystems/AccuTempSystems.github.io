@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "./Home.css"
+import building from "../homepage images/office-building-280x124.jpg"
+import jigsaw from "../homepage images/jigsaw-puzzle-280x124.jpg"
+import pie from "../homepage images/pie_chart-280x124.jpg"
 
 function Home(){
     return(
@@ -9,15 +12,24 @@ function Home(){
             <div className="flex-container">
                 <div>
                     <div className= "inner-container">
+                    <div className="card">
                     <NavLink to="/BuildingAutomation" class="clickable"> 
-                        <p>Building Automation</p>
+                        <img src={building} className="cardImage"></img>
+                        <h3>Building Automation</h3>
                     </NavLink>
+                    </div>
+                    <div className="card">
                     <NavLink to="/SystemsIntegration" class="clickable"> 
-                        <p>Systems Integration</p>
+                        <img src={jigsaw} className="cardImage"></img>
+                        <h3>Systems Integration</h3>
                     </NavLink>
+                    </div>
+                    <div className="card"> 
                     <NavLink to="/ResourceManagement" class="clickable">
-                        <p>Resource Management</p>
+                         <img src={pie} className="cardImage"></img>
+                        <h3>Resource Management</h3>
                     </NavLink>
+                    </div>
                     </div>
                     <img></img>
                  
