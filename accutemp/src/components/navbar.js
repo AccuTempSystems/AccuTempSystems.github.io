@@ -1,30 +1,47 @@
 import {NavLink} from "react-router-dom";
 import "./navbar.css"
-import image from "../AccuTemp2 monochrome.jpg"
+import image from "../2023 AccuTemp NoBack.jpg"
 
 function NavBar(){
     return(
         <body>
         <header class="menu">
-            <img src={image} className= "logo"></img>
+            <NavLink to ="" class="clickable">
+                <img src={image} className= "logo"></img>
+            </NavLink>
+    
             <div class = "menu">
-                <div class="menu">Home</div>
+                <div class="menu">
+                <NavLink to="" class="clickable"> 
+                        <p className="item1">Home</p>
+                    </NavLink>
+                </div>
                 <div class = "dropdown">
                     <div class="menu-title">Solutions</div>
                     <div class="dropdown-content">
                     <NavLink to="/BuildingAutomation" class="clickable"> 
-                        <p>Building Automation</p>
+                        <p className="item">Building Automation</p>
                     </NavLink>
-                        <a rel="noopener" target="_blank" href="">Systems Integration</a>
-                        <a rel="noopener" target="_blank" href="">Resource Management</a>
+                    <NavLink to="/SystemsIntegration" class="clickable"> 
+                        <p className="item">Systems Integration</p>
+                    </NavLink>
+                    <NavLink to="/ResourceManagement" class="clickable">
+                        <p className="item">Resource Management</p>
+                    </NavLink>
                     </div>
                 </div>
                 <div class = "dropdown">
                     <div class="menu-title">Services</div> 
                     <div class="dropdown-content">
-                        <a rel="noopener" target="_blank" href="">Engineering & Installation</a>
-                        <a rel="noopener" target="_blank" href="">Advanced Analytics</a>
-                        <a rel="noopener" target="_blank" href="">Monitoring & Support</a>
+                        <NavLink to="/EngineeringAndInstallation" class="clickable">
+                            <p className="item">Engineering & Installation</p>
+                         </NavLink>
+                        <NavLink to="/AdvancedAnalytics" class="clickable">
+                          <p className="item">Advanced Analytics</p>
+                        </NavLink>
+                        <NavLink to="/MonitoringAndSupport" class="clickable">
+                            <p className="item">Monitoring & Support</p>
+                        </NavLink>
                     </div>
                 </div>
                 <div class = "dropdown">

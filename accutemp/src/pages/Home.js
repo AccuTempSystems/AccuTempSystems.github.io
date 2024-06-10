@@ -28,7 +28,7 @@ function Home(){
                         <p>Advanced Analytics</p>
                     </NavLink>
                     <NavLink to="/MonitoringAndSupport" class="clickable">
-                        <p>MonitoringAndSupport</p>
+                        <p>Monitoring & Support</p>
                     </NavLink>
                 </div>
             </div>
