@@ -12,7 +12,9 @@ function NavBar(){
                 <div class = "dropdown">
                     <div class="menu-title">Solutions</div>
                     <div class="dropdown-content">
-                        <a rel="noopener" target="_blank" href="">Building Automation</a>
+                    <NavLink to="/BuildingAutomation" class="clickable"> 
+                        <p>Building Automation</p>
+                    </NavLink>
                         <a rel="noopener" target="_blank" href="">Systems Integration</a>
                         <a rel="noopener" target="_blank" href="">Resource Management</a>
                     </div>
