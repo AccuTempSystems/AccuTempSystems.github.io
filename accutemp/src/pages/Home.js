@@ -3,12 +3,18 @@ import "./Home.css"
 import building from "../homepage images/office-building-280x124.jpg"
 import jigsaw from "../homepage images/jigsaw-puzzle-280x124.jpg"
 import pie from "../homepage images/pie_chart-280x124.jpg"
+import gear from "../homepage images/gear-system-280x124.jpg"
+import laptop from "../homepage images/laptop-280x124.jpg"
+import binoculars from "../homepage images/binoculars-280x124.jpg"
 
 function Home(){
     return(
         <div>
-            <h1>Welcome to Accu-Temp Cooling & Heating Systems Inc.</h1> 
-            <p>At Accu-Temp, we revolutionize the way you experience your built environment. Our cutting-edge building automation systems empower you to control and optimize every aspect of your space, from energy efficiency to comfort, security, and beyond</p>
+            <div className= "body">
+                <h1>Welcome to Accu-Temp Cooling & Heating Systems Inc.</h1> 
+                <p>At Accu-Temp, we revolutionize the way you experience your built environment. Our cutting-edge building automation systems empower you to control and optimize every aspect of your space, from energy efficiency to comfort, security, and beyond</p>
+            </div>
+            
             <div className="flex-container">
                 <div>
                     <div className= "inner-container">
@@ -32,16 +38,27 @@ function Home(){
                     </div>
                     </div>
                     <img></img>
-                 
-                    <NavLink to="/EngineeringAndInstallation" class="clickable">
-                        <p>Engineering & Installation</p>
-                    </NavLink>
+                    <div className= "inner-container">
+                    <div className="card">
+                        <NavLink to="/EngineeringAndInstallation" class="clickable">
+                         <img src={gear} className="cardImage"></img>
+                         <h3>Engineering & Installation</h3>
+                        </NavLink>
+                    </div>
+                    <div className = "card">
                     <NavLink to="/AdvancedAnalytics" class="clickable">
-                        <p>Advanced Analytics</p>
+                        <img src={laptop} className="cardImage"></img>
+                        <h3>Advanced Analytics</h3>
                     </NavLink>
+                    </div>
+                    <div className ="card">
                     <NavLink to="/MonitoringAndSupport" class="clickable">
-                        <p>Monitoring & Support</p>
+                        <img src={binoculars} className="cardImage"></img>
+                        <h3>Monitoring & Support</h3>
                     </NavLink>
+                    </div>
+                
+                    </div>
                 </div>
             </div>
         </div>
