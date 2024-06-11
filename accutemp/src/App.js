@@ -12,6 +12,7 @@ import MonitoringAndSupport from "./pages/MonitoringAndSupport";
 import EngineeringAndInstallation from "./pages/EngineeringAndInstallation";
 import FooterImages from "./components/footerimages.js"
 import OurHistory from "./pages/OurHistory"
+import Contact from "./pages/Contact.js"
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="advancedanalytics" element={<AdvancedAnalytics/>}/>
             <Route path="monitoringandsupport" element={<MonitoringAndSupport/>}/>
             <Route path="ourhistory" element={<OurHistory/>}/>
+            <Route path="contact" element={<Contact/>}/>
 					</Routes>
           <FooterImages/>
           <Footer />
