@@ -47,7 +47,10 @@ function NavBar(){
                 <div class = "dropdown">
                     <div class="menu-title">Our Company</div>
                     <div class="dropdown-content">
-                        <a rel="noopener" target="_blank" href="">Our History</a>
+                        <NavLink to ="/OurHistory">
+                         <p className="item"> Our History </p>
+                        </NavLink>
+                       
                     </div>
                 </div>
                 <div class = "dropdown">

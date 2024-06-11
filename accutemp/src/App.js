@@ -11,6 +11,7 @@ import AdvancedAnalytics from "./pages/AdvancedAnalytics";
 import MonitoringAndSupport from "./pages/MonitoringAndSupport";
 import EngineeringAndInstallation from "./pages/EngineeringAndInstallation";
 import FooterImages from "./components/footerimages.js"
+import OurHistory from "./pages/OurHistory"
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="engineeringandinstallation" element={<EngineeringAndInstallation/>}/>
             <Route path="advancedanalytics" element={<AdvancedAnalytics/>}/>
             <Route path="monitoringandsupport" element={<MonitoringAndSupport/>}/>
+            <Route path="ourhistory" element={<OurHistory/>}/>
 					</Routes>
           <FooterImages/>
           <Footer />
