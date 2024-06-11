@@ -1,13 +1,13 @@
 .div-container{
     display: flex;
-    justify-content:center;
+    /* justify-content:center; */
 }
 p{
     margin-top: 0;
 }
 
 .div-element{
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 
 h2{
@@ -16,4 +16,9 @@ h2{
 
 .outside-container{
     width: 80%;
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
 }
