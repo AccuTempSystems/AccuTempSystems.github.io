@@ -6,6 +6,7 @@ import pie from "../homepage images/pie_chart-280x124.jpg"
 import gear from "../homepage images/gear-system-280x124.jpg"
 import laptop from "../homepage images/laptop-280x124.jpg"
 import binoculars from "../homepage images/binoculars-280x124.jpg"
+import background from "../vecteezy_view-of-taipei-city-taiwan_2225762.jpg"
 
 function Home(){
     return(
