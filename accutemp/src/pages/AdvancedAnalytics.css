@@ -1,0 +1,19 @@
+.div-container{
+    display: flex;
+    justify-content:center;
+}
+p{
+    margin-top: 0;
+}
+
+.div-element{
+    margin-left: 5px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.outside-container{
+    width: 80%;
+}
