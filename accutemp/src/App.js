@@ -10,6 +10,7 @@ import ResourceManagement from "./pages/ResourceManagement";
 import AdvancedAnalytics from "./pages/AdvancedAnalytics";
 import MonitoringAndSupport from "./pages/MonitoringAndSupport";
 import EngineeringAndInstallation from "./pages/EngineeringAndInstallation";
+import FooterImages from "./components/footerimages.js"
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="advancedanalytics" element={<AdvancedAnalytics/>}/>
             <Route path="monitoringandsupport" element={<MonitoringAndSupport/>}/>
 					</Routes>
+          <FooterImages/>
           <Footer />
 				</BrowserRouter>
 			</header>
