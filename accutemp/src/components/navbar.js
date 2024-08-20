@@ -6,13 +6,13 @@ function NavBar(){
     return(
         <body>
         <header class="menu">
-            <NavLink to ="" class="clickable">
+            <NavLink to ="accyutemp" class="clickable">
                 <img src={image} className= "logo"></img>
             </NavLink>
     
             <div class = "menu">
                 <div class="menu">
-                <NavLink to="" class="clickable"> 
+                <NavLink to="accutemp" class="clickable"> 
                         <p className="item1">Home</p>
                     </NavLink>
                 </div>
