@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./components/navbar";
 import Home from "./pages/Home.js";
 import Footer from "./components/footer.js";
-import { Routes, Route, BrowserRouter, Router } from "react-router-dom";
+import { Routes, Route, HashRouter, Router } from "react-router-dom";
 import BuildingAutomation from "./pages/BuildingAutomation.js";
 import SystemsIntegration from "./pages/SystemsIntegration";
 import ResourceManagement from "./pages/ResourceManagement";
@@ -18,7 +18,7 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<BrowserRouter>
+				<HashRouter>
 					<NavBar/>
 					<Routes>
             <Route path="accutemp" element={<Home />} />
@@ -33,7 +33,7 @@ function App() {
 					</Routes>
           <FooterImages/>
           <Footer />
-				</BrowserRouter>
+				</HashRouter>
 			</header>
 		</div>
 	);
